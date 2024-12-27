@@ -18,7 +18,7 @@ Route::get('/user/{id}', function (string $id) {
 
 
 
-Route::get('/products', [ProductController::class, 'index'])->middleware(['auth', 'verified'])->name('products.index'); // เพิ่มมา
+Route::get('/products', [ProductController::class, 'index'])->middleware(['auth', 'verified'])->name('products.index'); // auth: ตรวจสอบว่าผู้ใช้ล็อกอินแล้วหรือยัง verified:ตรวจสอบว่าผู้ใช้ได้ยืนยันอีเมลแล้วหรือยัง  ถ้ายังไม่ได้ยืนยัน จะถูกเปลี่ยนเส้นทางไปหน้าที่กำหนดไว้ใน middleware
 Route::get('/products/{id}', [ProductController::class, 'show'])->middleware(['auth', 'verified']); // /products ตามด้วย id ในเว็ป จะขึ้นเลขidสินค่า
 
 Route::get('/', function () {
