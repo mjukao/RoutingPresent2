@@ -18,7 +18,7 @@ class ProductController extends Controller
         ['id' => 9, 'name' => 'Puma FUTURE 7 PRO', 'description' => 'รังสรรค์มาเพื่อผู้เล่นที่จับทางได้ยาก แพรวพราวด้วยการใช้ความคิดสร้างสรรค์ สัญชาตญาณ และสเต็ปเท้าระดับเทพ', 'price' => 9000, 'image' => '/images/ssa.jpg'],
         ['id' => 10, 'name' => 'Nike Mercurial Superfly 9 Elite', 'description' => 'ความเร็ว สปีดต้น และพละกำลัง Mercurial ให้คุณเล่นด้วยความไวได้เต็มขั้น', 'price' => 12900, 'image' => '/images/zz.jpg'],
     ];
-    // จำเป็นต้องใส้ก่อนมะงั้นแดดง
+
     public function index()
     {
         // ฟอร์แมตราคาให้มีลูกน้ำ

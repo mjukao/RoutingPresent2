@@ -30,7 +30,7 @@ export default function ProductGrid({ products }) {
                         รองเท้าฟุตบอลสุดพรีเมียม
                     </h1>
                     <p className="text-lg mt-4 italic animate-fadeIn">
-                        ค้นหารองเท้าฟุตบอลที่เหมาะกับคุณที่สุดในราคาที่ใช่
+                        รองเท้าฟุตบอลที่เหมาะกับคุณที่สุดในราคาที่ใช่
                     </p>
                 </div>
             </header>
