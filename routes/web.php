@@ -8,9 +8,9 @@ use Inertia\Inertia;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProductController;
 
-Route::get('/greeting', function () {
-    return 'Hello World';
-}); // return ค่าคงที่ #2 returnค่าออกมาเป็น hello ถ้าพิม /greeting ใช้ postmanได้ (post)(error)
+// Route::get('/greeting', function () {
+//     return 'Hello World';
+// }); // return ค่าคงที่ #2 returnค่าออกมาเป็น hello ถ้าพิม /greeting ใช้ postmanได้ (post)(error)
 
 Route::get('/user/{id}', function (string $id) {
     return 'User ' . $id;
